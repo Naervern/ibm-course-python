@@ -5,7 +5,7 @@
 import time
 
 for i in "Hello, world!":
-    for c in range(60, 123):
+    for c in range(30, 123):
         print(chr(c), end= "")
         time.sleep(0.05)
         if chr(c)==i:
